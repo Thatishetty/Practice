@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    position:absolute;
+    top :50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height :400px;
+    width:320px;
+    border : 1px solid red;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#c1{
+    z-index: 6;
+}
+#c2{
+    z-index: 5;
+    transform: translate(-50%,-50%);rotate: -5deg;
+}
+#c3{
+    z-index: 4;
+    transform: translate(-50%,-50%);rotate: -10deg;
+}
+#c4{
+    z-index: 3;
+    transform: translate(-50%,-50%);rotate: -15deg;
+}
+#c5{
+    z-index: 2;
+    transform: translate(-50%,-50%);rotate: -20deg;
+}
+#c6{
+    z-index: 1;
+    transform: translate(-50%,-50%);rotate: -25deg;
+}
+#c2:hover{
+    z-index: 10;
+}
+#c3:hover{
+    z-index: 10;
+}
+#c4:hover{
+    z-index: 10;
+}
+#c5:hover{
+    z-index: 10;
+}
+#c6:hover{
+    z-index: 10;
+}
+h1{
+    color: red;
+    align-content:center;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
