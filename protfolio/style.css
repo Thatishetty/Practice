@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /* background-color: rgb(61, 59, 56); */
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: fit-content;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(221, 163, 92);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(90, 135, 175);
+    display: flex;
+
+}
+
+/* #x {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+} */
